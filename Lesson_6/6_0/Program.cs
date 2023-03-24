@@ -1,0 +1,15 @@
+﻿
+void Trngl(int A, int B, int C)
+{
+    if(A<B+C && B<A+C && C<A+B)
+    Console.WriteLine($"Да, такой треугольник может быть");
+    else Console.WriteLine($"Нет, такого треугольника не может быть");
+    
+}
+int num_1=int.Parse(Console.ReadLine()!);
+int num_2=int.Parse(Console.ReadLine()!);
+int num_3=int.Parse(Console.ReadLine()!);
+
+Trngl(num_1,num_2,num_3);
+
+
